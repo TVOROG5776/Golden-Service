@@ -1,0 +1,144 @@
+:root {
+    --header--text--: #FED136;
+    --title--text--: #222222;
+    --description--text--: #777777;
+    --placeholder--text--: #BBB;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 30px;
+    color: var(--header--text--);
+}
+
+nav {
+    text-align: right;
+    margin-top: -30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+h2:first-child {
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.img-service {
+    vertical-align: text-bottom;
+}
+
+h4 {
+    color: var(--title--text--);
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+}
+
+p {
+    color: var(--description--text--);
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.35px;
+}
+
+.footer {
+    background-color: #222222;
+    margin: -8px;
+    padding: -8px;
+    height: 600px;
+}
+
+.footer-title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    width: 455px;
+    height: 50px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+input[placeholder*="YOUR NAME*"] {
+    color: var(--placeholder--text--);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.35px;
+    padding-left: 10px; 
+}
+
+input[placeholder*="YOUR E-MAIL*"] {
+    color: var(--placeholder--text--);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.35px;
+    padding-left: 10px;
+}
+
+input[placeholder*="SUBJECT"] {
+    color: var(--placeholder--text--);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.35px;
+    padding-left: 10px;
+}
+
+.textarea {
+    margin-left: 200px;
+    text-align: center;
+    margin-top: -214px;
+}
+
+textarea {
+    border-radius: 4px;
+}
+
+textarea [placeholder="YOUR MESSAGE*"] {
+    color: var(--placeholder--text--);
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: -0.35px;
+}
+
+button {
+    margin: 30px;
+    margin-left: 250px;
+    background-color: #FED136;
+    border: none;
+    border-radius: 4px;
+    width: 242px;
+    height: 68px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+form {
+    margin-left: 500px;
+}
+
+button:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+button:active {
+    cursor: default;
+}
